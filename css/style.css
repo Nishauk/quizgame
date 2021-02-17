@@ -1,0 +1,29 @@
+
+
+#choice div{
+    border: 2px solid rgb(255, 255, 255);
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    word-wrap: normal;
+    
+
+}
+#choice{
+    display: block;
+    
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.container{
+    margin: 20%;
+}
+button{
+    background-color: rebeccapurple;
+    color: white;
+}
+a{
+    color: white;
+    text-decoration: none;
+}

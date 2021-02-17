@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Quiz</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <script src="js/script.js"></script>
+    </head>
+    <style>
+        #cnt div:hover{
+            background-color: rgb(248, 217, 222);
+            border: 1px solid;
+            padding: 10px;
+            box-shadow: 5px 10px #bdbbbb;
+        }
+        #cnt div{
+            margin: 10px;
+        }
+        #res{
+            text-align: center;
+            font-size: larger;
+            font-weight: 300;
+        }
+    </style>
+    <body>
+        <div class="one">
+            <header><h3 style="text-align: center;"><u>Simple Quiz</u></h3></header>
+            <div id="res">
+                
+            </div>
+            <div id="cnt" style="border: 1px solid black;">
+                <form action="" name="quiz" id="quiz">
+                    <ol>
+                        <li>
+                            <div>
+                                What is the national animal of india? <br>
+                                <input type="radio" name="ques1" value="lion">a. Lion <br>
+                                <input type="radio" name="ques1" value="tiger">b. Tiger <br>
+                                <input type="radio" name="ques1" value="leopard">c. Leopard <br>
+                                <input type="radio" name="ques1" value="panda">d. Panda <br>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                What is the national tree of india? <br>
+                                <input type="radio" name="ques2" value="coconut">a. Coconut tree <br>
+                                <input type="radio" name="ques2" value="mango">b. Mnago tree <br>
+                                <input type="radio" name="ques2" value="banyan">c. Banyan tree <br>
+                                <input type="radio" name="ques2" value="palm">d. Palm tree <br>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                What is the national fruit of india? <br>
+                                <input type="radio" name="ques3" value="apple">a. Apple <br>
+                                <input type="radio" name="ques3" value="jackfruit">b. Jackfruit <br>
+                                <input type="radio" name="ques3" value="mango">c. Mango <br>
+                                <input type="radio" name="ques3" value="fig">d. Fig <br>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                What is the national flower of india? <br>
+                                <input type="radio" name="ques4" value="lotus">a. Lotus <br>
+                                <input type="radio" name="ques4" value="rose">b. Rose <br>
+                                <input type="radio" name="ques4" value="sunflower">c. Sunflower <br>
+                                <input type="radio" name="ques4" value="hibiscus">d. Hibiscus <br>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                What is the national game of india? <br>
+                                <input type="radio" name="ques5" value="hockey">a. Hockey <br>
+                                <input type="radio" name="ques5" value="kabaddi">b. kabaddi <br>
+                                <input type="radio" name="ques5" value="basketball">c. Basketball <br>
+                                <input type="radio" name="ques5" value="cricket">d. Cricket <br>
+                            </div>
+                        </li>
+                    </ol>
+                    <input type="button" onclick="myFunc()" value="Submit" style="background-color: rgb(80, 235, 80); color: white;">&emsp;&emsp;
+                    <input type="button" onclick="resetForm()" value="Rese Quiz" style="background-color: blue; color: white;">
+                </form>
+            </div>
+            
+        </div>
+    </body>
+</html>
